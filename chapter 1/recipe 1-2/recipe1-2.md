@@ -75,8 +75,8 @@
 ## 実装例
 
 プロジェクトのコンテキストを効果的に提供した場合の実装例を示します：
-- [レシピ1-2: コンテキストを考慮した実装例](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/chapter%201-2/recipe1-2-code.ts)
-- [注文処理フロー](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/chapter%201-2/recipe1-2-flow.mermaid)
+- [レシピ1-2: コンテキストを考慮した実装例](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/recipe%201-2/recipe1-2-code.ts)
+- [注文処理フロー](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/recipe%201-2/recipe1-2-flow.mermaid)
 
 ## 実行結果の分析
 
