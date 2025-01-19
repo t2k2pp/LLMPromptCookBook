@@ -1,7 +1,7 @@
 # 実践LLMプロンプトCookBook
 ## ～ソフトウェア開発者のためのプロンプトエンジニアリング実践ガイド～
 
-# はじめに
+# [はじめに](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%200/introduction.md)
 - 本書の目的と構成
 - 対象読者
 - 前提知識
