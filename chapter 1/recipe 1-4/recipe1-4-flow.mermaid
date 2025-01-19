@@ -1,0 +1,29 @@
+flowchart TB
+    Client[クライアント]
+    LoadBalancer[ロードバランサー]
+    APIGateway[APIゲートウェイ]
+    SearchService[検索サービス]
+    ESClient[Elasticsearchクライアント]
+    Redis[Redisキャッシュ]
+    ES[Elasticsearch]
+    DB[(PostgreSQL)]
+    
+    Client --> LoadBalancer
+    LoadBalancer --> APIGateway
+    APIGateway --> SearchService
+    SearchService --> ESClient
+    SearchService --> Redis
+    ESClient --> ES
+    ES -.-> DB
+    
+    subgraph Search Service
+        direction TB
+        Controller[検索コントローラー]
+        SearchLogic[検索ロジック]
+        CacheManager[キャッシュマネージャー]
+        ESManager[ESマネージャー]
+        
+        Controller --> SearchLogic
+        SearchLogic --> CacheManager
+        SearchLogic --> ESManager
+    end

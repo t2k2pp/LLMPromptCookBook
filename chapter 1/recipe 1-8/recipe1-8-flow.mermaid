@@ -1,0 +1,28 @@
+flowchart TD
+    Start[テスト開始] --> Config[テスト設定]
+    Config --> TestCases[テストケース準備]
+    TestCases --> Split{プロンプト分岐}
+    
+    Split --> PromptA[プロンプトA]
+    Split --> PromptB[プロンプトB]
+    
+    PromptA --> RunA[テスト実行A]
+    PromptB --> RunB[テスト実行B]
+    
+    RunA --> CollectA[結果収集A]
+    RunB --> CollectB[結果収集B]
+    
+    CollectA --> Analysis[結果分析]
+    CollectB --> Analysis
+    
+    Analysis --> Stats[統計分析]
+    Stats --> Significance{有意差あり?}
+    
+    Significance -- Yes --> Winner[勝者決定]
+    Significance -- No --> More[追加テスト検討]
+    
+    Winner --> Implement[改善の実装]
+    More --> Refine[テスト設計の見直し]
+    
+    Implement --> End[テスト完了]
+    Refine --> TestCases

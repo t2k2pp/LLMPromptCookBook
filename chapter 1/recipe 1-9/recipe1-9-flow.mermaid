@@ -1,0 +1,42 @@
+flowchart TD
+    Start[フィードバック開始] --> Collect[フィードバック収集]
+    Collect --> Store[データ保存]
+    Store --> Analyze[データ分析]
+    
+    Analyze --> Metrics[メトリクス計算]
+    Analyze --> Patterns[パターン分析]
+    Analyze --> Trends[トレンド分析]
+    
+    Metrics --> Aggregate[集計・統計]
+    Patterns --> Aggregate
+    Trends --> Aggregate
+    
+    Aggregate --> Priority[優先順位付け]
+    Priority --> Plan[改善計画策定]
+    
+    Plan --> Implementation[改善実装]
+    Implementation --> Validation[効果検証]
+    
+    Validation --> Success{改善確認}
+    Success -- Yes --> Document[文書化]
+    Success -- No --> Analyze
+    
+    Document --> End[プロセス完了]
+    
+    subgraph Feedback Collection
+    Collect
+    Store
+    end
+    
+    subgraph Analysis
+    Analyze
+    Metrics
+    Patterns
+    Trends
+    end
+    
+    subgraph Implementation
+    Plan
+    Implementation
+    Validation
+    end
