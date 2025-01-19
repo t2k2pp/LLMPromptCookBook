@@ -93,8 +93,8 @@
 2. 変更点の説明
 3. 期待される効果
 ```
-- (フィードバック管理システムの実装例)[https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/recipe%201-9/recipe1-9-code.ts]
-- (フィードバックの収集と反映プロセス)[https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/recipe%201-9/recipe1-9-flow.mermaid]
+- [フィードバック管理システムの実装例](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/recipe%201-9/recipe1-9-code.ts)
+- [フィードバックの収集と反映プロセス](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/recipe%201-9/recipe1-9-flow.mermaid)
 
 
 
