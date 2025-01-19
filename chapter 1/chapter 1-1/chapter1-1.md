@@ -52,6 +52,7 @@ TypeScriptでAPIエンドポイントを作成してください。
 
 #### 実行結果
 このような構造化されたプロンプトを使用することで、以下のような利点が得られます：
+- [recipe1-1-code.ts](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/chapter%201-1/recipe1-1-code.ts)
 
 1. より具体的で実用的なコード生成
 2. 一貫性のある実装スタイル
