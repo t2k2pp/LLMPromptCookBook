@@ -24,7 +24,7 @@
 - [レシピ1-7: プロンプトの評価指標](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/recipe%201-7/recipe1-7.md)
 - [レシピ1-8: A/Bテストの実施方法](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/recipe%201-8/recipe1-8.md)
 - [レシピ1-9: フィードバックの収集と反映](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/recipe%201-9/recipe1-9.md)
-- [Column: プロンプトの自動評価システム]()
+- Column: プロンプトの自動評価システム
 
 ### Chapter 1 まとめ
 - チェックリスト
