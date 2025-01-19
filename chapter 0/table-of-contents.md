@@ -15,16 +15,16 @@
 - [Column: トークン数の最適化テクニック](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/column%201-1/column1-1.md#column-%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E6%95%B0%E3%81%AE%E6%9C%80%E9%81%A9%E5%8C%96%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF)
 
 ## 1.2 タスク指向のプロンプト設計
-- レシピ1-4: 段階的な指示の組み立て方
-- レシピ1-5: エッジケースの考慮と対処
-- レシピ1-6: 出力フォーマットの制御
-- Column: プロンプトのバージョン管理手法
+- [レシピ1-4: 段階的な指示の組み立て方](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/recipe%201-4/recipe1-4.md)
+- [レシピ1-5: エッジケースの考慮と対処](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/recipe%201-5/recipe1-5.md)
+- [レシピ1-6: 出力フォーマットの制御](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/recipe%201-6/recipe1-6.md)
+- [Column: プロンプトのバージョン管理手法](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/column%201-1/column1-1.md)
 
 ## 1.3 プロンプトの評価と改善
-- レシピ1-7: プロンプトの評価指標
-- レシピ1-8: A/Bテストの実施方法
-- レシピ1-9: フィードバックの収集と反映
-- Column: プロンプトの自動評価システム
+- [レシピ1-7: プロンプトの評価指標](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/recipe%201-7/recipe1-7.md)
+- [レシピ1-8: A/Bテストの実施方法](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/recipe%201-8/recipe1-8.md)
+- [レシピ1-9: フィードバックの収集と反映](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/recipe%201-9/recipe1-9.md)
+- [Column: プロンプトの自動評価システム]()
 
 ### Chapter 1 まとめ
 - チェックリスト
