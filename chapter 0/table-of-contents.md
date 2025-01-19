@@ -18,7 +18,7 @@
 - [レシピ1-4: 段階的な指示の組み立て方](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/recipe%201-4/recipe1-4.md)
 - [レシピ1-5: エッジケースの考慮と対処](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/recipe%201-5/recipe1-5.md)
 - [レシピ1-6: 出力フォーマットの制御](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/recipe%201-6/recipe1-6.md)
-- [Column: プロンプトのバージョン管理手法](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/column%201-1/column1-1.md)
+- Column: プロンプトのバージョン管理手法
 
 ## 1.3 プロンプトの評価と改善
 - [レシピ1-7: プロンプトの評価指標](https://github.com/t2k2pp/LLMPromptCookBook/blob/main/chapter%201/recipe%201-7/recipe1-7.md)
