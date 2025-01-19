@@ -1,0 +1,37 @@
+sequenceDiagram
+    participant C as Client
+    participant OS as OrderService
+    participant IS as InventoryService
+    participant PS as PaymentService
+    participant DB as Database
+
+    C->>OS: createOrder(orderDto)
+    activate OS
+    
+    OS->>IS: checkAvailability(items)
+    activate IS
+    IS-->>OS: InventoryCheckResult
+    deactivate IS
+    
+    OS->>DB: create(order)
+    activate DB
+    DB-->>OS: created order
+    deactivate DB
+    
+    OS->>IS: reserveItems(orderId, items)
+    activate IS
+    IS-->>OS: success
+    deactivate IS
+    
+    OS->>PS: processPayment(paymentInfo)
+    activate PS
+    PS-->>OS: success
+    deactivate PS
+    
+    OS->>DB: save(confirmed order)
+    activate DB
+    DB-->>OS: saved order
+    deactivate DB
+    
+    OS-->>C: Order
+    deactivate OS
